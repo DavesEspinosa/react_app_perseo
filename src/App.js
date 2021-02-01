@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 import { withAuth } from "./context/auth-context.js";
-import "./App.css";
-import Login from "./pages/Login";
-import Main from "./pages/Main";
-import Player from "./pages/Player";
+import Login from "./pages/Login/Login";
+import Main from "./pages/Main/Main";
+import Player from "./pages/Player/Player.jsx";
 
 class App extends Component {
   render() {

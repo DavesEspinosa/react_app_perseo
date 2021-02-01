@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { withAuth } from "../context/auth-context";
-import { device } from "./Login";
+import { withAuth } from "./../../context/auth-context.js";
+import { device } from "./../Login/Login";
 import { Avatar, Space } from "antd";
 import TimerTwoToneIcon from "@material-ui/icons/TimerTwoTone";
 import GradeTwoToneIcon from "@material-ui/icons/GradeTwoTone";

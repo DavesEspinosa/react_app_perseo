@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import { withAuth } from "../context/auth-context.js";
+import { withAuth } from "../../context/auth-context.js";
 import { Redirect } from "react-router-dom";
-import { device } from "./Login";
+import { device } from "../Login/Login";
 import { Result, Row } from "antd";
 
 import "./Main.css";
-import SingleCard from "./../components/SingleCard";
-import FavoriteList from "../components/FavoriteList.jsx";
-import Header from "../components/Header.jsx";
+import SingleCard from "../../components/SingleCard";
+import FavoriteList from "../../components/FavoriteList.jsx";
+import Header from "../../components/Header.jsx";
 
 const token = localStorage.getItem("token");
 
